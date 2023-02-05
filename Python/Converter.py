@@ -1,8 +1,5 @@
 def convert(type, value):
-	if type == 'C':
-		return round((value * 1.8) + 32)
-	else:
-		return round((value - 32) * 0.5556)
+    return round((value * 1.8) + 32) if type == 'C' else round((value - 32) * 0.5556)
 
 if __name__ == "__main__":
     print("10 Celsius to Fahrenheit = " + str(convert('C', 10)))
