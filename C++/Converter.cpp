@@ -4,10 +4,10 @@
 int convert(char, int);
 
 int main() {
-	std::cout << "10 Celsius to Fahrenheit = " << convert('C', 10) << '\n';
-	std::cout << "50 Fahrenheit to Celsius = " << convert('F', 50) << '\n';
-	std::cout << "-40 Celsius to Fahrenheit = " << convert('C', -40) << '\n';
-	std::cout << "0 Fahrenheit to Celsius = " << convert('F', 0) << '\n';
+	std::cout << "10 Celsius to Fahrenheit = " << convert('C', 10) << std::endl;
+	std::cout << "50 Fahrenheit to Celsius = " << convert('F', 50) << std::endl;
+	std::cout << "-40 Celsius to Fahrenheit = " << convert('C', -40) << std::endl;
+	std::cout << "0 Fahrenheit to Celsius = " << convert('F', 0) << std::endl;
 }
 
 int convert(char type, int value) {
